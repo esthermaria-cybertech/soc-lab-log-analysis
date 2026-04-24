@@ -1,0 +1,9 @@
+LOG ANALYSIS REPORT
+
+- Multiple failed login attempts from 192.168.1.15
+- Possible brute force attack
+- Successful login after failures is suspicious
+- Late-night login detected
+
+CONCLUSION:
+Possible unauthorized access attempt
