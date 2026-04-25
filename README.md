@@ -1,24 +1,24 @@
-# SOC Lab: Log Analysis Project
+# SOC Lab Log Analysis
 
-## Objective
-To analyze system logs and identify suspicious or malicious activity.
+## 📌 Objective
+To analyze system logs and identify suspicious or malicious login activity.
 
-## Tools Used
-- Windows Event Viewer / Sample Logs
-- Basic Cybersecurity Knowledge
+## 🧪 Scenario
+A system was monitored for unusual login behavior and failed access attempts.
 
-## Scenario
-A system log file was reviewed to detect unusual login attempts and possible attacks.
+## 📂 Files Included
+- sample-log.txt → Raw authentication logs  
+- analysis.txt → Investigation report
 
-## Findings
-- Multiple failed login attempts detected
-- Unusual login time observed (late night access)
-- Possible brute force attack pattern
+## 🔍 Key Observations
+- Multiple failed login attempts from same IP  
+- Successful login after repeated failures  
+- Suspicious login pattern detected  
 
-## Conclusion
-The activity suggests a potential unauthorized access attempt. Further monitoring is required.
+## 🚨 Conclusion
+The activity suggests a possible brute force attack or unauthorized access attempt.
 
-## Skills Demonstrated
-- Log analysis
-- Threat detection
-- Analytical thinking
+## 🧠 Skills Demonstrated
+- Log analysis  
+- Threat detection  
+- Security investigation
