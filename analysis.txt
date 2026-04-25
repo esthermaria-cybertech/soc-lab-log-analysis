@@ -1,9 +1,10 @@
-LOG ANALYSIS REPORT
+SOC LOG ANALYSIS REPORT
 
-- Multiple failed login attempts from 192.168.1.15
-- Possible brute force attack
-- Successful login after failures is suspicious
-- Late-night login detected
+Observations:
+- Repeated failed login attempts detected from IP 192.168.1.15
+- Multiple authentication failures within a short time
+- Successful login occurred after repeated failures
+- Unusual login pattern suggests automated attack behavior
 
-CONCLUSION:
-Possible unauthorized access attempt
+Conclusion:
+The activity is consistent with a possible brute force attack attempt. Further monitoring or IP blocking is recommended.
